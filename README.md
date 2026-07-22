@@ -5,6 +5,8 @@ to non-covalently bind in the Mpro active site of SARS-CoV-2.
 
 DATA STRUCTURE
 
-- code
+- python\_codes
+- bash\_scripts
+- mol2\_data\_files
 - mol2\_gz\_files
 - csv\_result\_files
