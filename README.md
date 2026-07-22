@@ -1,6 +1,6 @@
 # GIGADOG
 
-The project to predict ZINC15 compounds (3D ones) in mol2 format
-and predict their docking score agains Mpro of SARS-CoV-2.
+The project to predict the affinity of ZINC15 compounds in 3D mol2 format
+to non-covalently bind in the Mpro active site of SARS-CoV-2.
 
 
