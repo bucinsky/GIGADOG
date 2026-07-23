@@ -14,7 +14,9 @@ to non-covalently bind in the Mpro active site of SARS-CoV-2.
 ## HOW TO RUN
 
 git clone https://github.com/bucinsky/GIGADOG
+
 <br>
+
 Check the Environemnt section.
 
 ### Run the prediction
