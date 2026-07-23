@@ -38,8 +38,8 @@ Run the prediction:
 ### The SchNet models of J. Matúška [1,2,3]
 
 Please install the code and edit the bash\_scripts/run\_predict\_score\_prototype.sh 
-according to your needs, see:
-https://github.com/j-matuska/schnet\_hyperparameters\_optimization
+according to your needs,   
+see: https://github.com/j-matuska/schnet\_hyperparameters\_optimization
 
 ## HOW TO CITE
 
