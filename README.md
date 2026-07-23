@@ -21,7 +21,7 @@ Set your GIGADOG\_ROOT = GDR variable!
 For instance, create a file, named GDR.s, with:  
   `GIGADOG\_ROOT=/path/to/the/directory/GIGADOG`
   `GDR=$GIGADOG\_ROOT`  
-  `export GDR`
+  `export GDR`  
 Activate the GDR variable via command:  
   `source GDR.s`   
 You are done!
@@ -30,7 +30,7 @@ You are done!
 
   `mkdir run\_prediction`  
   `cd run\_prediction`  
-  `mkdir xyz\_A\_predict` \# This must be like this for all letter bins A-K
+  `mkdir xyz\_A\_predict` \# This must be like this for all letter bins A-K  
   `cd xyz\_A\_predict` 
 
 ### The SchNet models of J. Matúška [1,2,3]
