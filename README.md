@@ -19,12 +19,19 @@ git clone https://github.com/bucinsky/GIGADOG
 
 Set your GIGADOG\_ROOT = GDR variable!  
 For instance, create a file, named GDR.s, with:  
-GIGADOG\_ROOT=/path/to/the/directory/GIGADOG  
-GDR=$GIGADOG\_ROOT  
-export GDR
+  GIGADOG\_ROOT=/path/to/the/directory/GIGADOG  
+  GDR=$GIGADOG\_ROOT  
+  export GDR
 Activate the GDR variable via command:  
-source GDR.s   
+  source GDR.s   
 You are done!
+
+### Run the prediction
+
+  mkdir run\_prediction  
+  cd run\_prediction  
+  mkdir xyz\_A\_predict \# This must be like this for all letter bins A-K
+  cd xyz\_A\_predict 
 
 ### The SchNet models of J. Matúška [1,2,3]
 
@@ -52,6 +59,6 @@ https://github.com/j-matuska/schnet\_hyperparameters\_optimization
 ## REQUIREMENTS
 
 [comment]: # (pip3 install -r requirements.txt)
-Essetially you need RDkit, but you better grep "import" in the python files!  
-Bash scripts are using standard commands so nothing special should be needed!
-
+Essetially you need RDkit, but you better grep "import" in the python files!   
+Bash scripts are using standard commands so nothing special should be needed!  
+We rely on the sbatch of slurm, if you are using a different batch scheduler you need to adapt the code!
