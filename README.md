@@ -14,17 +14,8 @@ to non-covalently bind in the Mpro active site of SARS-CoV-2.
 ## HOW TO RUN
 
 git clone https://github.com/bucinsky/GIGADOG
-
-### Environment variables 
-
-Set your GIGADOG\_ROOT = GDR variable!  
-For instance, create a file, named GDR.s, with:  
-  `GIGADOG_ROOT=/path/to/the/directory/GIGADOG`
-  `GDR=$GIGADOG_ROOT`  
-  `export GDR`  
-Activate the GDR variable via command:  
-  `source GDR.s`   
-You are done!
+<br>
+Check the Environemnt section.
 
 ### Run the prediction
 
@@ -34,12 +25,6 @@ You are done!
   `cd xyz_A_predict`  
 Run the prediction:  
   `bash $GDR/bash_scripts/do_run_predict.sh` \# This is Kevin! 
-
-### The SchNet models of J. Matúška [1,2,3]
-
-Please install the code and edit the bash\_scripts/run\_predict\_score\_prototype.sh 
-according to your needs,   
-see: https://github.com/j-matuska/schnet\_hyperparameters\_optimization
 
 ## HOW TO CITE
 
@@ -59,6 +44,25 @@ J. Phys. Chem. B128 (2024) 4943-4951. DOI: 10.1021/acs.jpcb.4c00296
 https://github.com/j-matuska/schnet\_hyperparameters\_optimization 
 
 ## REQUIREMENTS
+
+### Environment variables 
+
+Set your GIGADOG\_ROOT = GDR variable!  
+For instance, create a file, named GDR.s, with:  
+  `GIGADOG_ROOT=/path/to/the/directory/GIGADOG`
+  `GDR=$GIGADOG_ROOT`  
+  `export GDR`  
+Activate the GDR variable via command:  
+  `source GDR.s`   
+You are done with the environment!
+
+### The SchNet models of J. Matúška [1,2,3]
+
+Please install the code and edit the bash\_scripts/run\_predict\_score\_prototype.sh 
+according to your needs,   
+see: https://github.com/j-matuska/schnet\_hyperparameters\_optimization
+
+### python / bash / slurm
 
 [comment]: # (pip3 install -r requirements.txt)
 Essetially you need RDkit, but you better grep "import" in the python files!   
