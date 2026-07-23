@@ -16,9 +16,15 @@ to non-covalently bind in the Mpro active site of SARS-CoV-2.
 git clone https://github.com/bucinsky/GIGADOG
 <br>
 
-Check the Environemnt section.
+Check the Environment variables section at the bottom.
 
 ### Run the prediction
+
+Please note the current version is just a prediction simulation,  
+we have selected a sample of 100 files in each letter bin to show
+the _mol2.gz_ to _xyz_ conversion (including the presence of broken files).
+The prediction step is not really done, we rather copy the results.
+<br>
 
   `mkdir run_prediction`  
   `cd run_prediction`  
@@ -26,6 +32,13 @@ Check the Environemnt section.
   `cd xyz_A_predict`  
 Run the prediction:  
   `bash $GDR/bash_scripts/do_run_predict.sh` \# This is Kevin! 
+<br>
+
+Check for broken _mol2.gz_ 2 _xyz_ conversions (e.g. xyz\_B\_predict)
+<br>
+
+For results analysis and molecular docking calculatios, only description 
+and sample files are provided.
 
 ## HOW TO CITE
 
