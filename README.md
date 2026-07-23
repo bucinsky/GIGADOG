@@ -20,10 +20,14 @@ Check the Environment variables section at the bottom.
 
 ### Run the prediction
 
-Please note the current version is just a prediction simulation,  
-we have selected a sample of 100 files in each letter bin to show
+Please note the current version is just a prediction simulation, we have selected a sample of 100 files in each letter bin to show
 the _mol2.gz_ to _xyz_ conversion (including the presence of broken files).
-The prediction step is not really done, we rather copy the results.
+The prediction step is not really done, we rather copy the results.  
+Please cite the ZINC15 database, if using the files present in the mol2\_gz\_files directory:   
+Sterling and Irwin, J. Chem. Inf. Model, 2015 https://pubs.acs.org/doi/abs/10.1021/acs.jcim.5b00559    
+Irwin, Sterling, Mysinger, Bolstad and Coleman, J. Chem. Inf. Model, 2012 DOI: 10.1021/ci3001277   
+Irwin and Shoichet, J. Chem. Inf. Model. 2005;45(1):177-82.  10.1021/ci049714+   
+https://zinc15.docking.org/
 <br>
 
   `mkdir run_prediction`  
