@@ -47,9 +47,9 @@ https://github.com/j-matuska/schnet\_hyperparameters\_optimization
 
 ### Environment variables 
 
-Set your GIGADOG\_ROOT = GDR variable!  
+Set your `GIGADOG_ROOT = GDR` variable!  
 For instance, create a file, named GDR.s, with:  
-  `GIGADOG_ROOT=/path/to/the/directory/GIGADOG`
+  `GIGADOG_ROOT=/path/to/the/directory/GIGADOG`  
   `GDR=$GIGADOG_ROOT`  
   `export GDR`  
 Activate the GDR variable via command:  
