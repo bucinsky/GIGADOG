@@ -26,12 +26,17 @@ Activate the GDR variable via command:
 source GDR.s   
 You are done!
 
-## REQUIREMENTS
-
-[comment]: pip3 install -r requirements.txt
-Essntially you need RDkit
-
 ## HOT TO CITE
 
-
 [comment]: # (This may be the most platform independent comment)
+Adriána Dunárová, Marián Gall, Ján Matúška, Michal Pitoňák, Marek Štekláč, Lukas Bucinsky.
+Machine Learning Prediction of Docking Scores for 616 Million ZINC15 Compounds: Accuracy and Speed vs. Model and Infrastructure.
+(2026) _to be submitted_.
+
+
+## REQUIREMENTS
+
+[comment]: # (pip3 install -r requirements.txt)
+Essetially you need RDkit, but you better grep "import" in the python files!  
+Bash scripts are using standard commands so nothing special should be needed!
+
