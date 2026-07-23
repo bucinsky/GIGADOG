@@ -51,10 +51,10 @@ Machine Learning Prediction of Docking Scores for 616 Million ZINC15 Compounds: 
 The models used are from:  
 [1] L. Bucinsky, M. Gall, J. Matúška, M. Pitoňák, M. Štekláč.
 Advances and critical assessment of machine learning techniques for prediction of docking scores. 
-Int. J. Quantum Chem. 123 (2023) e27110. DOI: 10.1002/qua.27110
+Int. J. Quantum Chem. 123 (2023) e27110. DOI: 10.1002/qua.27110   
 [2] J. Matúška, L. Bucinsky, M. Gall, M. Pitoňák, M. Štekláč. 
 SchNetPack Hyperparameter Optimization for a More Reliable Top Docking Scores Prediction. 
-J. Phys. Chem. B128 (2024) 4943-4951. DOI: 10.1021/acs.jpcb.4c00296 
+J. Phys. Chem. B128 (2024) 4943-4951. DOI: 10.1021/acs.jpcb.4c00296    
 [3] J. Matúška, L. Bucinsky, M. Gall, M. Pitoňák, M. Štekláč. 
 https://github.com/j-matuska/schnet\_hyperparameters\_optimization 
 
