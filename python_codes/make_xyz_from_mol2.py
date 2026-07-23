@@ -3,6 +3,7 @@
 import glob
 import time
 import sys
+import os
 
 import numpy as np
 
@@ -16,7 +17,8 @@ def use_mol2s_for_letter(letter):
    start=time.time()
    
    # path to the dir wheer the sdf.gz files are present
-   dir_mol2s="/home/dunarova/600_Mpro_COV3_GigaDog/ZINC15_mol2_gz_sample_files/mol2_gz_files"
+   gdr = os.environ["GDR"]
+   dir_mol2s = os.path.join(gdr, "mol2_gz_files")
    
    # lets read all the mol2.gz files
    gz_mol2s= glob.glob(dir_mol2s+'/*.mol2.gz')
