@@ -28,7 +28,8 @@ You are done!
 
 ## REQUIREMENTS
 
-pip3 install -r requirements.txt
+[comment]: pip3 install -r requirements.txt
+Essntially you need RDkit
 
 ## HOT TO CITE
 
