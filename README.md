@@ -32,7 +32,7 @@ You are done!
   `cd run_prediction`  
   `mkdir xyz_A_predict` \# This must be like this for all letter bins A-K  
   `cd xyz_A_predict`  
-Run:  
+Run the prediction:  
   `bash $GDR/bash_scripts/do_run_predict.sh` \# This is Kevin! 
 
 ### The SchNet models of J. Matúška [1,2,3]
@@ -41,7 +41,7 @@ Please install the code and edit the bash\_scripts/run\_predict\_score\_prototyp
 according to your needs, see:
 https://github.com/j-matuska/schnet\_hyperparameters\_optimization
 
-## HOT TO CITE
+## HOW TO CITE
 
 [comment]: # (This may be the most platform independent comment)
 Adriána Dunárová, Marián Gall, Ján Matúška, Michal Pitoňák, Marek Štekláč, Lukas Bucinsky.
