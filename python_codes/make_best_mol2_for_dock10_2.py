@@ -46,7 +46,9 @@ def unzip_mol2gz_2_mol2_2(mol2_gz,mol2_gz_file):
     return 0
 
 def process_mol2_gzs(uniq_mol2_gz_tags,uniq_zincs,uniq_order_zincs):
-    mol2_gz_path="/mnt/ehome-space/covid/data_sets/zinc_23aug2023/"
+    gdr = os.environ["GDR"]
+    #mol2_gz_path="/mnt/ehome-space/covid/data_sets/zinc_23aug2023/"
+    mol2_gz_path = os.path.join(gdr, "mol2_gz_files")
 
     for img,mol2_gz in enumerate(uniq_mol2_gz_tags):
         mol2_gz_file=mol2_gz_path+mol2_gz+".mol2.gz"
