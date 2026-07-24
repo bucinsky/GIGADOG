@@ -12,8 +12,8 @@ echo "L;-15.0;-14.0;-13.0;-12.0;-11.0;-10.0;-9.0;-8.0;-7.0;-6.0;-5.0;-4.0;-3.0;-
 # process all letters
 for L in A B C D E F G H I J K
 do
-
-    cd "xyz_${L}_predict" || exit
+    
+    cd "xyz_${L}_predict" || continue 
 
     echo
     echo "Processing ${L}..."
