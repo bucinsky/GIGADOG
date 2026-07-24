@@ -53,6 +53,11 @@ and sample files are provided.
 To get the hit candidates according to PDS<sub>avg</sub> you how to run in each xyz\_L\_predict dirctory the python code:   
    `python3 $GDR/python_codes/best_predict_3_avg.py`  
 Note that you may want to set the threshold to your convenience: 'ds\_lim'.
+<br>
+
+Now move back to the run\_prediction directory. Launch the bash script to prepare the histogram input file
+get\_all\_pds\_avg\_to\_one\_dat\_file.dat:
+   `bash $GDR/bash_scripts/get_all_pds_avg_to_one_dat_file.sh`
 
 
 ## HOW TO CITE
