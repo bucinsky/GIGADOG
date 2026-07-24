@@ -62,8 +62,17 @@ Run the python code the prepare png and eps figures. Please edit the py code to 
 
 To get the hit candidates according to PDS<sub>avg</sub> you have to run in each xyz\_L\_predict dirctory the python code:   
    `python3 $GDR/python_codes/best_predict_3_avg.py`  
-Note that you may want to set the threshold to your convenience: 'ds\_lim'.
-
+Note that you may want to set the threshold to your convenience: 'ds\_lim'.  
+To obtain the list of hit candidates for further mol2 file extraction (and
+subsequent docking) run:   
+   ` python3 $GDR/python_codes/make_pds_VinaAD_results_2_pds10_5000.py`
+to prepare the file X\_comparison\_pds10\_scores\_5000.csv with file tag
+(mol2.gz \_ ZINC15 label \_ compound order).   
+This file is later processed in mol2\_L\_avg3PDS10\_dock directory:   
+  `mkdir mol2_L_avg3PDS10_dock`    
+  `cd mol2_L_avg3PDS10_dock`    
+ with ....    
+XXXXXXXX  
 <br>
 
 ## HOW TO CITE
