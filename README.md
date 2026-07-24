@@ -48,6 +48,12 @@ if present, then run:
 
 For results analysis and molecular docking calculatios, only description 
 and sample files are provided.
+<br>
+
+To get the hit candidates according to PDS<sub>avg</sub> you how to run in each xyz\_L\_predict dirctory the python code:   
+   `python3 $GDR/python_codes/best_predict_3_avg.py`  
+Note that you may want to set the threshold to your convenience: 'ds\_lim'.
+
 
 ## HOW TO CITE
 
