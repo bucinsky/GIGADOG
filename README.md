@@ -35,10 +35,15 @@ https://zinc15.docking.org/
   `mkdir xyz_A_predict` \# This must be like this for all letter bins A-K  
   `cd xyz_A_predict`  
 Run the prediction:  
-  `bash $GDR/bash_scripts/do_run_predict.sh` \# This is Kevin! 
+  `bash $GDR/bash_scripts/do_run_predict_score.sh` \# This is Kevin! 
 <br>
 
-Check for broken _mol2.gz_ 2 _xyz_ conversions (e.g. xyz\_B\_predict)
+Check for broken _mol2.gz_ to _xyz_ conversions (e.g. xyz\_B\_predict)   
+if present, then run:  
+1. conversion of _mol2.gz_ to _xyz_ 
+  `nohup bash $GDR/bash_scripts/run_predict_score_BROKEN_1.sh &`   
+2. gather the prediction csv file   
+  `nohup bash $GDR/bash_scripts/run_predict_score_BROKEN_2.sh &`
 <br>
 
 For results analysis and molecular docking calculatios, only description 
