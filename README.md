@@ -71,8 +71,9 @@ to prepare the file X\_comparison\_pds10\_scores\_5000.csv with file tag
 This file is later processed in mol2\_L\_avg3PDS10\_dock directory:   
   `mkdir mol2_L_avg3PDS10_dock`    
   `cd mol2_L_avg3PDS10_dock`    
- with ....    
-XXXXXXXX  
+  `ln -s ../X_comparison_pds10_scores_5000.csv`    
+   `python3 $GDR/python_codes/make_best_mol2_for_dock10_2.py X_comparison_pds10_scores_5000.csv L > X_comparison_pds10_scores_5000.out &`   
+with `L` being the letter A-K of the current directory. 
 <br>
 
 ## HOW TO CITE
