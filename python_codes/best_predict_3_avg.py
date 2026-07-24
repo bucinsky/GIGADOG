@@ -37,7 +37,7 @@ def write_output_file_from_list(file_out_best_pds,best_pds_compounds):
 files = glob.glob("*.csv")
 
 # file with best ds below ds_lim 
-ds_lim=-9.0
+ds_lim=-10.0
 
 # list with best ds compounds and the ZINC15 file tag according to the
 best_pds_compounds=[]
