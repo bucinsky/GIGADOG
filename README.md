@@ -47,18 +47,24 @@ if present, then run:
 <br>
 
 For results analysis and molecular docking calculatios, only description 
-and sample files are provided.
-<br>
+and sample files are provided, see below.
 
-To get the hit candidates according to PDS<sub>avg</sub> you how to run in each xyz\_L\_predict dirctory the python code:   
-   `python3 $GDR/python_codes/best_predict_3_avg.py`  
-Note that you may want to set the threshold to your convenience: 'ds\_lim'.
-<br>
+### Prepare the prediction histogram data 
 
 Now move back to the run\_prediction directory. Launch the bash script to prepare the histogram input file
-get\_all\_pds\_avg\_to\_one\_dat\_file.dat:
-   `bash $GDR/bash_scripts/get_all_pds_avg_to_one_dat_file.sh`
+get\_all\_pds\_avg\_to\_one\_dat\_file.dat:  
+   `bash $GDR/bash_scripts/get_all_pds_avg_to_one_dat_file.sh`    
+Run the python code the prepare png and eps figures. Please edit the py code to pick A-F or G-K part (default is A-F):    
+   `python3 $GDR/python_codes/make_pds_avg_graph_histogram_csv_bar.py`
+<br>
 
+### Analysis of hit candidates 
+
+To get the hit candidates according to PDS<sub>avg</sub> you have to run in each xyz\_L\_predict dirctory the python code:   
+   `python3 $GDR/python_codes/best_predict_3_avg.py`  
+Note that you may want to set the threshold to your convenience: 'ds\_lim'.
+
+<br>
 
 ## HOW TO CITE
 
