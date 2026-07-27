@@ -46,7 +46,7 @@ if present, then run:
 1. conversion of _mol2.gz_ to _xyz_    
   `nohup bash $GDR/bash_scripts/run_predict_score_BROKEN_1.sh &`    
 2. gather the prediction csv file   
-  `nohup bash $GDR/bash_scripts/run_predict_score_BROKEN_2.sh &`
+  `sbatch $GDR/bash_scripts/run_predict_score_BROKEN_2.sh`
 <br>
 
 For results analysis and molecular docking calculatios, only description 

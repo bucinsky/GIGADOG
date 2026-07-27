@@ -1,5 +1,11 @@
 #!/bin/bash
 
+#SBATCH --job-name="BROKEN2"
+#SBATCH --nodes=1
+#SBATCH --ntasks=12
+#SBATCH --partition=compute_mem
+#SBATCH --time=12:00:00
+
 export OMP_NUM_THREADS=6
 
 # current directory
