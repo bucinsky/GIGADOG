@@ -31,6 +31,7 @@ for fxyz in `ls *.xyz`
 do
     echo "$i predicting $fxyz" >> $out
 
+    # actual prediction needs to be adjusted with respet to the  SchNetPack model of Matuska
     #python3.8 /ehome/PROGS/misc/schnetpack_models/predict.py $fxyz
     
     # just a formal something to run
