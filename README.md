@@ -1,7 +1,7 @@
 # GIGADOG
 
-The GIGADOG project is a showcase of hit candidates picking among ZINC15 compounds in 3D mol2 format
-to non-covalently bind in the Mpro active site of SARS-CoV-2.
+The GIGADOG project is a showcase of hit candidates identification among 616 million ZINC15 compounds in 3D mol2 format
+that are non-covalently bound in the M<sup>pro</sup> active site of SARS-CoV-2.
 
 ## DATA STRUCTURE
 
