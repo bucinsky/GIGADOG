@@ -114,7 +114,7 @@ You are done with the environment!
 
 Please install the code and edit the bash\_scripts/run\_predict\_score\_prototype.sh 
 according to your needs,   
-see: https://github.com/j-matuska/schnet\_hyperparameters\_optimization
+see: <a> https://github.com/j-matuska/schnet_hyperparameters_optimization </a>
 
 ### python3 / bash / slurm
 
