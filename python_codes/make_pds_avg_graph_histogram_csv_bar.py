@@ -52,12 +52,12 @@ w=0.14
 # Uncomment ONLY ONE of the following options
 
 # A-F:
-for i in range(0,6):
-    j=i
+#for i in range(0,6):
+#    j=i
 
 # G-K:
-#for i in range(6,11):
-#    j=i-6
+for i in range(6,11):
+    j=i-6
     
     h=heights[i]
     # for G-K bins: shift = 0.25
