@@ -10,6 +10,7 @@ to non-covalently bind in the Mpro active site of SARS-CoV-2.
 - mol2\_data\_files
 - mol2\_gz\_files
 - csv\_result\_files
+- results
 
 ## HOW TO RUN
 
@@ -56,8 +57,9 @@ and sample files are provided, see below.
 Now move back to the run\_prediction directory. Launch the bash script to prepare the histogram input file
 get\_all\_pds\_avg\_to\_one\_dat\_file.dat:  
    `bash $GDR/bash_scripts/get_all_pds_avg_to_one_dat_file.sh`    
-Run the python code the prepare png and eps figures. Please edit the py code to pick A-F or G-K part (default is A-F):    
-   `python3 $GDR/python_codes/make_pds_avg_graph_histogram_csv_bar.py`
+Run the python code the prepare png and eps figures. Please edit the py code to pick A-F or G-K part (default is G-K):    
+   `python3 $GDR/python_codes/make_pds_avg_graph_histogram_csv_bar.py`   
+Edit (comment/uncomment) two lines around lines 54-60.
 <br>
 
 ### Analysis of hit candidates 
@@ -77,8 +79,22 @@ for a further validation via molecular docking:
   `ln -s ../X_comparison_pds10_scores_5000.csv`    
    `python3 $GDR/python_codes/make_best_mol2_for_dock10_2.py X_comparison_pds10_scores_5000.csv L > X_comparison_pds10_scores_5000.out &`   
 with `L` being the letter A-K of the current directory. Now you have gathered the mol2 files so you
-can now do the molecular docking calculation. Herein,...
+can now do the molecular docking calculation. Herein, we just provide a sample output file in the results directory, see the next subsection.
 <br>
+
+### The plot analysis of the X\_comparison\_pds10\_scores\_sample.csv file
+
+Link the file form the results (please note that four files are missing comparing the X\_comparison\_pds10\_scores\_5000.csv file
+, due to present of Si atoms, see the missing list in results/missing\_structures.txt)   
+   `ln -s $GDR/results/X_comparison_pds10_scores_sample.csv`   
+<br>
+
+To obtain the DS MW bin distribution historgrams run:     
+    `python3 $GDR/python_codes/make_graph_histogram.py`   
+To obtain the DS vs. PDS correlation plots run:  
+    `python3 $make_graph_regr_csv.py`  
+To obtain the DS vs. PDS confusion matrix run:    
+    `python3 $make_graph_regr_csv.py`  
 
 ## HOW TO CITE
 
