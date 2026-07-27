@@ -1,6 +1,6 @@
 # GIGADOG
 
-The project to predict the affinity of ZINC15 compounds in 3D mol2 format
+The GIGADOG project is a showcase of hit candidates picking among ZINC15 compounds in 3D mol2 format
 to non-covalently bind in the Mpro active site of SARS-CoV-2.
 
 ## DATA STRUCTURE
@@ -68,12 +68,14 @@ subsequent docking) run:
    ` python3 $GDR/python_codes/make_pds_VinaAD_results_2_pds10_5000.py`
 to prepare the file X\_comparison\_pds10\_scores\_5000.csv with file tag
 (mol2.gz \_ ZINC15 label \_ compound order).   
-This file is later processed in mol2\_L\_avg3PDS10\_dock directory:   
+This file is later processed in mol2\_L\_avg3PDS10\_dock directory to obtain the mol2 files of hit candidates
+for a further validation via molecular docking:   
   `mkdir mol2_L_avg3PDS10_dock`    
   `cd mol2_L_avg3PDS10_dock`    
   `ln -s ../X_comparison_pds10_scores_5000.csv`    
    `python3 $GDR/python_codes/make_best_mol2_for_dock10_2.py X_comparison_pds10_scores_5000.csv L > X_comparison_pds10_scores_5000.out &`   
-with `L` being the letter A-K of the current directory. 
+with `L` being the letter A-K of the current directory. Now you have gathered the mol2 files so you
+can now do the molecular docking calculation. Herein,...
 <br>
 
 ## HOW TO CITE
@@ -112,9 +114,15 @@ Please install the code and edit the bash\_scripts/run\_predict\_score\_prototyp
 according to your needs,   
 see: https://github.com/j-matuska/schnet\_hyperparameters\_optimization
 
-### python / bash / slurm
+### python3 / bash / slurm
 
 [comment]: # (pip3 install -r requirements.txt)
 Essetially you need RDkit, but you better grep "import" in the python files!   
+In addition, take care of the python3 environment. In the our case we do "activate" our python environment
+in the bash scripts.
+<br>
+
 Bash scripts are using standard commands so nothing special should be needed!  
+<br>
+
 We rely on the sbatch of slurm, if you are using a different batch scheduler you need to adapt the code!
