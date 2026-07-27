@@ -31,14 +31,14 @@ Irwin and Shoichet, J. Chem. Inf. Model. 2005;45(1):177-82.  10.1021/ci049714+
 https://zinc15.docking.org/
 <br>
 
-To run the prediction choose a new directory
+To run the prediction choose a new directory    
   `mkdir run_prediction`  
   `cd run_prediction`  
-For all letters L (from A-K), it is mandatory to continue the following:
+For all letters L (from A-K), it is mandatory to continue the following:   
   `mkdir xyz_L_predict` \# This must be like this for all letter bins A-K  
   `cd xyz_L_predict`  
 Run the prediction (see REQUIREMENTS):  
-  `bash $GDR/bash_scripts/do_run_predict_score.sh` \# This is Kevin! 
+  `bash $GDR/bash_scripts/do_run_predict_score.sh` \# This is Kevin!
 <br>
 
 Check for broken _mol2.gz_ to _xyz_ conversions (e.g. xyz\_B\_predict)   
