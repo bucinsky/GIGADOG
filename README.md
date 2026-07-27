@@ -129,7 +129,7 @@ You are done with the environment!
 ### The SchNet models of J. Matúška [1,2,3]
 
 Please install the code and edit the bash\_scripts/run\_predict\_score\_prototype.sh 
-according to your needs,   
+and bash\_scripts/run\_predict\_score\_BROKEN\_2.sh according to your needs,   
 see: <a> https://github.com/j-matuska/schnet_hyperparameters_optimization </a>
 
 ### python3 / bash / slurm
