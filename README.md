@@ -95,7 +95,7 @@ Int. J. Quantum Chem. 123 (2023) e27110. DOI: 10.1002/qua.27110
 SchNetPack Hyperparameter Optimization for a More Reliable Top Docking Scores Prediction. 
 J. Phys. Chem. B128 (2024) 4943-4951. DOI: 10.1021/acs.jpcb.4c00296    
 [3] J. Matúška, L. Bucinsky, M. Gall, M. Pitoňák, M. Štekláč. 
-https://github.com/j-matuska/schnet\_hyperparameters\_optimization 
+<a> https://github.com/j-matuska/schnet_hyperparameters_optimization </a>
 
 ## REQUIREMENTS
 
