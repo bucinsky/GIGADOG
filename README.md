@@ -136,8 +136,23 @@ see: <a> https://github.com/j-matuska/schnet_hyperparameters_optimization </a>
 
 [comment]: # (pip3 install -r requirements.txt)
 Essentially you need RDkit, but you better grep "import" in the python files!   
+
+We highly recommend managing your dependencies inside a virtual environment.   
+You can install all required Python packages (including RDKit, Pandas, NumPy, and Matplotlib) 
+automatically using the provided environment file:
+
+```bash
+# Optional: Create and activate a virtual environment
+python3 -m venv .venv_GD
+source .venv_GD/bin/activate
+
+# Install the dependencies
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
 In addition, take care of the python3 environment. In the our case we do "activate" our python environment
-in the bash scripts.
+in the bash scripts, i.e. `source .venv_GD/bin/activate`.
 <br>
 
 Bash scripts are using standard commands so nothing special should be needed!  
