@@ -1,0 +1,13 @@
+# Chemistry & Cheminformatics
+rdkit
+
+# Data Analysis
+pandas
+numpy
+
+# Visualization
+matplotlib
+# seaborn
+
+# Machine Learning / Scikit-Learn (Required if doing evaluation metrics like confusion matrices)
+scikit-learn
