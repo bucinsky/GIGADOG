@@ -135,7 +135,7 @@ see: <a> https://github.com/j-matuska/schnet_hyperparameters_optimization </a>
 ### python3 / bash / slurm
 
 [comment]: # (pip3 install -r requirements.txt)
-Essetially you need RDkit, but you better grep "import" in the python files!   
+Essentially you need RDkit, but you better grep "import" in the python files!   
 In addition, take care of the python3 environment. In the our case we do "activate" our python environment
 in the bash scripts.
 <br>
