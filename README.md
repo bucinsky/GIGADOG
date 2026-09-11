@@ -101,7 +101,7 @@ To obtain the DS vs. PDS confusion matrix run:
 [comment]: # (This may be the most platform independent comment)
 Adriána Dunárová, Marián Gall, Ján Matúška, Michal Pitoňák, Marek Štekláč, Lukas Bucinsky.
 Machine Learning Prediction of Docking Scores for 616 Million ZINC15 Compounds: Accuracy and Speed vs. Model and Infrastructure.
-(2026) _to be submitted_.
+J. Mol. Graph. Model. (2026) _(submitted)_.
 
 The models used are from:  
 [1] L. Bucinsky, M. Gall, J. Matúška, M. Pitoňák, M. Štekláč.
